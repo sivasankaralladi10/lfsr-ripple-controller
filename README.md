@@ -44,3 +44,13 @@ testbench/
 simulation/
 ├── README.md
 └── waveform.png
+
+## Simulation
+
+The design was functionally verified using Cadence Xcelium/SimVision.
+
+The simulation observes the clock, reset, LFSR output, decoded binary output, and ripple signal.
+
+### Simulation Waveform
+
+![Simulation Waveform](simulation/waveform.png)
