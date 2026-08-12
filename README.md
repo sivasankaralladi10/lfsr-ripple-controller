@@ -17,3 +17,30 @@ The design was functionally verified using Cadence Xcelium/SimVision and synthes
 ## Objective
 
 To develop a compact and efficient VLSI-oriented digital architecture using an LFSR, decoder, and ripple controller while gaining practical experience in Verilog HDL, functional simulation, and RTL synthesis.
+## Tools & Technologies
+
+- Verilog HDL
+- Cadence Xcelium
+- Cadence SimVision
+- Cadence Genus
+- Digital Logic Design
+- RTL Design
+- Functional Simulation
+- RTL Synthesis
+
+## Project Structure
+
+```text
+src/
+├── dff.v
+├── lfsr.v
+├── decoder.v
+├── ripple_controller.v
+└── top.v
+
+testbench/
+└── tb_lfsr.v
+
+simulation/
+├── README.md
+└── waveform.png
